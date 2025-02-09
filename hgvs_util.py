@@ -14,3 +14,5 @@ dotenv_file = local_env if local_env.exists() else home_env
 if dotenv_file.exists():
   load_dotenv(dotenv_path=dotenv_file)
 
+import hgvs.dataproviders.uta
+import hgvs.normalizer

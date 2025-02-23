@@ -8,7 +8,7 @@ setup(
     install_requires=[
         # Add your project dependencies here
     ],
-    python_requires=">=3.7",
+    python_requires=">=3.10",
     author="Your Name",
     author_email="your.email@example.com",
     description="HGVS Extension Package",
